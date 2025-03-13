@@ -54,14 +54,15 @@ import main
 ## 🚀 Running the Simulation
 Once uploaded, the simulation will start automatically, displaying the motion of **3 gravitational bodies** on the SSD1306 display.
 
-- Modify the number of bodies by editing the `bodies` list in `main.py`.
+- Modify the number of bodies by creating another `planet` object in `main.py`.
 - Adjust physical parameters (e.g., mass, position, velocity) to explore different system dynamics.
+- You will see a timer in case of a `collision detection`.
 
 ## ⚠️ Important Note
 You may experience issues running this project on certain **power banks**. The **Raspberry Pi Pico** draws **low current**, causing some power banks to enter **standby mode** and shut down. For best results, use a **USB power adapter** or a reliable **battery pack** designed for low-power devices.
 
 ## 📚 Customization
-1. **Add More Bodies**: Extend the `Body` class and update the `bodies` list.
+1. **Add More Bodies**: Extend the `Body` class and update the code.
 2. **Adjust Physics**: Tweak gravitational constants, initial velocities, and positions.
 
 ## 📄 License
